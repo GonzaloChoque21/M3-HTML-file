@@ -1,11 +1,9 @@
- /* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -29,8 +27,8 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    overflow: hidden; /* Evita que la imagen sobresalga */
-    width: calc(33.333% - 40px); /* Ajusta el ancho de cada sección */
+    overflow: hidden;
+    width: calc(33.333% - 40px);
 }
 
 h2 {
